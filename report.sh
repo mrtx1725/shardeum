@@ -13,8 +13,6 @@ node_status=$(curl -s http://localhost:$ext_port/nodeinfo | jq .nodeInfo.status 
 id=shardeum-$SHARDEUM_ID
 url=http://$server_ip:$dash_port
 chain=sphinx
-bucket=$a 
-
 
 
 case $node_status in
