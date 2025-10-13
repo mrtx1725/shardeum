@@ -9,7 +9,7 @@ chmod +x installer.sh
 #send data to influxdb
 if [ ! -z $INFLUX_HOST ]
 then
-
+ 
  source ~/.bash_profile
 
  ext_port=$(cat ~/.shardeum/.env | grep SHMEXT | cut -d "=" -f 2)
